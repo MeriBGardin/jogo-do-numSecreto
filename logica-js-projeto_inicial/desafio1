@@ -1,0 +1,41 @@
+alert('Beas Vindas ao nosso site');
+
+let nome = 'Lua';
+
+let idade = 25;
+
+let numeroDeVendas = 50;
+
+let sldoDisponivel = 1000;
+
+alert('Erro! Preencha todos os campos');
+
+let mesagemDeErro = 'Erro!Preencha todos os campos';
+alert(mesagemDeErro);
+
+let nomeuser = prompt('Qual seu nome?');
+let idadeuser = prompt('Digite sua idade:');
+
+if (idadeuser >= 18) {
+    alert('Pode tirar a habilitacao');
+}else alert('Não pode tirar Habilitacao');
+
+
+
+
+
+alert('Bem Vindo ao Desafio!!!')
+let diaSemana = prompt('Qual o dia da semana?');
+
+if (diaSemana == 'Sabado'){
+    alert('Bom Final de Semana!');
+} else if (diaSemana == 'Domingo'){
+    alert('Bom Final de Semana!');
+} else alert('Boa Semana!');
+
+alert('Bem Vindo ao Desafio!!!')
+let numero = prompt('Digite um numero');
+
+if (numero >= 0){
+    alert('Numero POSITIVO')
+} else alert('Numero NEGATIVO')
